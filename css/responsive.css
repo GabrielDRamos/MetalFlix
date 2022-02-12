@@ -1,0 +1,45 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+       
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    #btn-mobile {
+        display: block;
+        padding: .5rem;
+        font-size: 1rem;
+    }
+
+    #menu {
+        display: none; 
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #313131;
+        
+    }
+
+    #nav.active #menu {
+        display: block;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(240, 234, 234, 0.05);
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
